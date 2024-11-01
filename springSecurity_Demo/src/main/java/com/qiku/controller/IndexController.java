@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class IndexController {
-
+    private int age;
     @GetMapping("/index")
     public String getIndex() {
         return "index";
